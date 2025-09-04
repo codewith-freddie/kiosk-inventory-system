@@ -28,7 +28,7 @@ Keeper Hub is more than a system – it’s a **digital hub of order and conveni
 ## 🔑 Default Accounts  
 
 ### **Admin**
-Username: admin
+Username: admin |
 Password: admin
 
 ### **Users**
@@ -52,9 +52,7 @@ Password: admin
 2. Locate and open `Keeper_Hub.sln`  
 3. Click **Start** to run the system  
 
-## 📸 Screenshots  
-
-### User Pages  
+## 📸 User Interface Preview  
 
 #### Login Page  
 ![Login Page](Keeper_Hub/images/readme_images/login.png)  
@@ -63,6 +61,8 @@ The login interface where users enter their credentials to access the system.
 #### Available Items  
 ![Available Items](Keeper_Hub/images/readme_images/available_items.png)  
 Displays the list of items available for borrowing, with search and filter options.  
+
+### User Pages  
 
 #### User Dashboard  
 ![User Dashboard](Keeper_Hub/images/readme_images/user_page0.png)  
@@ -76,19 +76,19 @@ Shows items currently borrowed by the user, including dates and quantities.
 ![Returned Items](Keeper_Hub/images/readme_images/user_page2.png)  
 Lists items that have been returned, with status and return timestamps.  
 
-### Admin Pages  
+### Admin Pages
 
-#### Admin Dashboard 1  
-![Admin Dashboard 1](Keeper_Hub/images/readme_images/admin_page1.png)  
-First admin view for managing inventory items and user accounts.  
+#### Inventory Management
+![Inventory Management](Keeper_Hub/images/readme_images/admin_page1.png)
+Interface for managing inventory items and user accounts, including adding, editing, and overseeing accounts.
 
-#### Admin Dashboard 2  
-![Admin Dashboard 2](Keeper_Hub/images/readme_images/admin_page2.png)  
-Second admin view handling borrowing requests and item confirmations.  
+#### Borrowing Management
+![Borrowing Management](Keeper_Hub/images/readme_images/admin_page2.png)
+View for handling borrowing requests, confirming item loans, and managing return confirmations.
 
-#### Admin Dashboard 3  
-![Admin Dashboard 3](Keeper_Hub/images/readme_images/admin_page3.png)  
-Third admin view with additional tools for reporting and system administration.  
+#### System Administration
+![System Administration](Keeper_Hub/images/readme_images/admin_page3.png)
+Tools for generating reports, configuring system settings, and performing administrative tasks.
 
 ---
 
@@ -123,21 +123,6 @@ The Keeper Hub system uses a MySQL database with the following key tables:
 - **borrowed**: Tracks items currently borrowed by users, linking to users and inventory.
 - **returned**: Records items that have been returned, including confirmation status.
 - **history**: Maintains a log of all borrowing and returning transactions for auditing.
-
----
-
-## 👨‍💻 Developer
-**Freddie G. Alicante**
-
-📌 *"Efficiency meets elegance in Keeper Hub."*
-=======
-## 📂 Project Structure  
-Keeper-Hub/
-│── keeper_hub.sql # Database file
-│── Keeper_Hub.sln # Main solution file
-│── src/ # Source code files
-│── docs/ # Documentation (if any)
-│── README.md # Project guide
 
 ---
 
