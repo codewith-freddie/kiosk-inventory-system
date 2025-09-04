@@ -52,8 +52,6 @@ Password: admin
 2. Locate and open `Keeper_Hub.sln`  
 3. Click **Start** to run the system  
 
----
-
 ## 📸 Screenshots  
 
 ### User Pages  
@@ -132,3 +130,18 @@ The Keeper Hub system uses a MySQL database with the following key tables:
 **Freddie G. Alicante**
 
 📌 *"Efficiency meets elegance in Keeper Hub."*
+=======
+## 📂 Project Structure  
+Keeper-Hub/
+│── keeper_hub.sql # Database file
+│── Keeper_Hub.sln # Main solution file
+│── src/ # Source code files
+│── docs/ # Documentation (if any)
+│── README.md # Project guide
+
+---
+
+## 👨‍💻 Developer  
+**Freddie G. Alicante**  
+
+📌 *"Efficiency meets elegance in Keeper Hub."*  
